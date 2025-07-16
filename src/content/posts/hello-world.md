@@ -3,8 +3,8 @@ title: Hello, World!
 published: 2025-07-16
 description: 'An introductory blog post'
 image: ''
-tags: [miscellaneous]
-category: 'Miscellaneous'
+tags: [Introduction]
+category: 'Just Chatting'
 draft: false 
 lang: ''
 ---
