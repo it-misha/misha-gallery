@@ -73,7 +73,7 @@ export const profileConfig: ProfileConfig = {
 };
 
 export const licenseConfig: LicenseConfig = {
-	enable: true,
+	enable: false,
 	name: "CC BY-NC-ND 4.0",
 	url: "https://creativecommons.org/licenses/by-nc-nd/4.0/",
 };
