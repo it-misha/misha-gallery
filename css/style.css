@@ -55,6 +55,11 @@ nav {
 	justify-content: center;
 }
 
+video {
+	max-width: 80vw;
+	max-height: 60vh;
+}
+
 footer {
 	display: flex;
 	align-items: center;
