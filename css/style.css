@@ -19,7 +19,7 @@ main {
 	align-items: center;
 	justify-content: space-around;
 	min-height: 94vh;
-	margin: 10px 20vw;
+	margin: 10px 12vw;
 	background-color: white;
 	border-style: solid;
 	border-width: 10px;
@@ -83,15 +83,8 @@ footer {
 }
 
 /* Media Queries */
-/* Medium Devices */
-@media screen and (max-width: 1440px) {
-	main {
-		margin: 10px 8vw;
-	}
-}
-
-/* Small Devices */
-@media screen and (max-width: 1152px) {	
+/* Smaller Devices */
+@media screen and (max-width: 1366px) {
 	main {
 		margin: 10px 4vw;
 	}
