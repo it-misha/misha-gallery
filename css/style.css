@@ -70,6 +70,7 @@ footer {
 
 footer > p > a {
 	text-decoration: none !important;
+	text-decoration-line: none !important;
 	color: inherit;
 }
 
