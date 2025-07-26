@@ -1,0 +1,106 @@
+/* misha.gallery stylsheet */
+
+/* Elements */
+body {
+	font-family: sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 16px;
+	color: black;
+	margin: 0px;
+	padding: 0px;
+	max-width: 100%;
+	background-image: url("/img/bg.jpg");
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	min-height: 94vh;
+	margin: 10px 20vw;
+	background-color: white;
+	border-style: solid;
+	border-width: 10px;
+    border-image: url(/img/frame.png) 10 round;
+}
+
+header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 40px 0px 10px 0px;
+	text-align: center;
+	color: #AABBCC;
+}
+
+header > a > img {
+	max-width: 80vw;
+	max-height: 60vh;
+	image-rendering: pixelated;
+	transition: scale 0.5s;
+}
+
+header > a > img:hover {
+	scale: 1.33;
+	transition: scale 0.5s;
+}
+
+nav {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+footer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 12px;
+	color: #AABBCC;
+}
+
+/* Classes */
+
+/* IDs */
+/* Accesibility - Skip to Content */
+#skip a {
+	position: absolute;
+	left: -1000000px;
+	top: auto;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+}
+
+#skip a:focus {
+	height: auto;
+	position: static;
+	width: auto;
+}
+
+/* Media Queries */
+/* Medium Devices */
+@media screen and (max-width: 1440px) {
+	main {
+		margin: 10px 8vw;
+	}
+}
+
+/* Small Devices */
+@media screen and (max-width: 1152px) {	
+	main {
+		margin: 10px 4vw;
+	}
+	
+	nav {
+		flex-direction: column;
+	}
+	
+	nav a {
+		margin: 0px 0px 10px 0px;
+	}
+}
