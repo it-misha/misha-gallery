@@ -68,6 +68,15 @@ footer {
 	color: #AABBCC;
 }
 
+footer > p > a {
+	text-decoration: none;
+	color: inherit;
+}
+
+footer > p > a:hover {
+	text-shadow: #0000FF33 0px 0px 5px;
+}
+
 /* Classes */
 
 /* IDs */
